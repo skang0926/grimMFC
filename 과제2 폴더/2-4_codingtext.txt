@@ -1,0 +1,25 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int solution(int a, int b) {
+    int answer = 0;
+    
+    string str1 = to_string(a);
+    string str2 = to_string(b);
+    
+    int sum1 = stoi(str1 + str2);
+    int sum2 = stoi(str2 + str1);
+    
+    if(sum1 > sum2)
+    {
+        answer = sum1;
+    }
+    else
+    {
+        answer = sum2;
+    }
+    
+    return answer;
+}

@@ -1,0 +1,11 @@
+*.vs/
+*/Debug
+*/Release
+*/x64
+*/Project1/*/Debug
+*/Project1/*/Release
+*/Plugins/*/x64
+
+Debug/
+Release/
+x64/
